@@ -4,14 +4,13 @@
     flex-direction: row;
 
     &__titulo{
-        color: rgb(0, 0, 0);
-        font-size: 4rem;
-        letter-spacing: 5px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
-        -webkit-text-stroke: rgb(255, 140, 0) 2.5px;
+        color:$colorH1;
+        font-size:$font-sizeH1;
+        font-family:$font-familyH1;
+        -webkit-text-stroke:$webkit-text-strokeH1;
         animation-name: aparecer;
         animation-duration: 4s; 
+        letter-spacing: 5px;
     }
 
     @keyframes aparecer{

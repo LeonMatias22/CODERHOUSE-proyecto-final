@@ -10,6 +10,18 @@ body {
   background-color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  background-color: black;
+}
+
 .header__nav {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#86827c), color-stop(black), to(black));
   background-image: linear-gradient(#86827c, black, black);
@@ -118,14 +130,13 @@ body {
 .heroSection__titulo {
   color: black;
   font-size: 4rem;
-  margin-bottom: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-text-stroke: darkorange 2px;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
+  margin-bottom: 5px;
 }
 
 @-webkit-keyframes aparecer {
@@ -214,14 +225,13 @@ body {
 .Nosotros__titulo {
   color: black;
   font-size: 4rem;
-  letter-spacing: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
-  -webkit-text-stroke: darkorange 2.5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: darkorange 2px;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
+  letter-spacing: 5px;
 }
 
 @keyframes aparecer {
@@ -291,11 +301,10 @@ body {
 .productos__titulo {
   color: black;
   font-size: 4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: darkorange 2px;
   letter-spacing: 5px;
   margin-bottom: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
-  -webkit-text-stroke: darkorange 2px;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: 4s;
@@ -343,10 +352,9 @@ body {
 .Servicios__titulo {
   color: black;
   font-size: 4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: darkorange 2px;
   letter-spacing: 5px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center;
-  -webkit-text-stroke: darkorange 2.5px;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: 4s;
@@ -410,9 +418,9 @@ body {
 .contactos__titulo {
   color: black;
   font-size: 4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: darkorange 2px;
   letter-spacing: 6px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  -webkit-text-stroke: darkorange 2.5px;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: 4s;

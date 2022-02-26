@@ -1,11 +1,10 @@
 .Servicios{
     &__titulo{
-        color: rgb(0, 0, 0);
-        font-size: 4rem;
+        color:$colorH1;
+        font-size: $font-sizeH1;
+        font-family:$font-familyH1;
+        -webkit-text-stroke:$webkit-text-strokeH1;
         letter-spacing: 5px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
-        -webkit-text-stroke: rgb(255, 140, 0) 2.5px;
         animation-name: aparecer;
         animation-duration: 4s; 
     }

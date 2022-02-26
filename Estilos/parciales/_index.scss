@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     background-image: url(../assets/Index/bosque2.jpg);
-    // background-image: url(../../assets/Index/bosque2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -21,14 +20,13 @@
     }
 
     &__titulo{
-        color: rgb(0, 0, 0);
-    font-size: 4rem;
-    margin-bottom: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    -webkit-text-stroke: darkorange 2px;
+        color: $colorH1;
+    font-size: $font-sizeH1;
+    font-family:$font-familyH1;
+    -webkit-text-stroke:$webkit-text-strokeH1 ;
     animation-name: aparecer;
     animation-duration: 4s; 
+    margin-bottom: 5px;
     }
 
     @keyframes aparecer{
