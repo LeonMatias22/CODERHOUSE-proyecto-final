@@ -1,0 +1,50 @@
+.productos{
+    background-color: black;
+    &__titulo{
+        color: rgb(0, 0, 0);
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    -webkit-text-stroke: darkorange 2px;
+    animation-name: aparecer;
+    animation-duration: 4s; 
+    }
+
+    @keyframes aparecer{
+        0%{opacity: 0;}
+        100%{opacity: 1;} 
+    }
+}
+
+.variedades{
+
+    background-image: radial-gradient(darkorange,black,  black);
+    
+    &__CardsContainer{
+        border: dashed 2px rgb(255, 251, 0);
+        padding: 40px;
+        border-radius: 1rem;
+    }
+
+    &__cards{
+        width: 18rem;
+    }
+
+    &__cardsBody{
+        background-color: rgb(58, 61, 61);
+    }
+
+    &__cardsTitle{
+        color: darkorange;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__cardsText{
+        color:rgb(170, 180, 180);
+        text-align: center;
+    }
+
+}

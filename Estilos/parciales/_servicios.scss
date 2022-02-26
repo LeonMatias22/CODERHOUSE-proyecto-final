@@ -1,0 +1,60 @@
+.Servicios{
+    &__titulo{
+        color: rgb(0, 0, 0);
+        font-size: 4rem;
+        letter-spacing: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        -webkit-text-stroke: rgb(255, 140, 0) 2.5px;
+        animation-name: aparecer;
+        animation-duration: 4s; 
+    }
+
+    @keyframes aparecer{
+        0%{opacity: 0;}
+        100%{opacity: 1;} 
+    }
+
+    &__contenido{
+        align-items: center;
+    }
+
+    &__parrafo{
+        color: rgb(180, 180, 180);
+    }
+
+    &__img{
+        height: 14.75rem;
+        border-radius: 1rem;
+    }
+}
+
+.NuestrosServicios{
+
+    &__encabezado{
+        color: rgb(0, 0, 0);
+        font-size: 3rem;
+        letter-spacing: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        -webkit-text-stroke: rgb(251, 255, 0) 2px;
+        animation-name: aparecer;
+        animation-duration: 4s; 
+    }
+
+    &__cards{
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0.9855129551820728) 80%, rgba(255,230,0,1) 100%);
+        width: 18rem;
+    }
+
+    &__titulo{
+        color: yellow;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    &__parrafo{
+        color: rgb(255, 249, 249);
+    }
+}

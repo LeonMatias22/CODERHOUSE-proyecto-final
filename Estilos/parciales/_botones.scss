@@ -1,0 +1,45 @@
+.boton{
+    background-color: black;
+border-radius: 12px;
+transition: background-color 1s;
+}
+
+.boton:hover{
+    background-color: darkorange;
+}
+
+.aboton{
+    color: darkorange;
+    padding: 8px 15px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+.aboton:hover{
+    color: black;
+}
+
+.boton__form{
+    background-color: black;
+border-radius: 12px;
+transition: background-color 1s;
+}
+
+.boton__form:hover{
+    background-color: darkorange;
+}
+
+.aboton__form{
+    color: darkorange;
+    padding: 1px 8px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+.aboton__form:hover{
+    color: black;
+}

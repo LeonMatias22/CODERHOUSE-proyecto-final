@@ -1,0 +1,73 @@
+.Nosotros{
+
+    display: flex;
+    flex-direction: row;
+
+    &__titulo{
+        color: rgb(0, 0, 0);
+        font-size: 4rem;
+        letter-spacing: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        -webkit-text-stroke: rgb(255, 140, 0) 2.5px;
+        animation-name: aparecer;
+        animation-duration: 4s; 
+    }
+
+    @keyframes aparecer{
+        0%{opacity: 0;}
+        100%{opacity: 1;} 
+    }
+
+    &__contenido{
+        align-items: center;
+    }
+
+    &__parrafo{
+        color: rgb(180, 180, 180);
+    }
+
+    &__img{
+        height: 18.75rem;
+        border-radius: 1rem;
+    }
+}
+
+
+.Equipo{
+    
+    background-image: radial-gradient(darkorange, black, black);
+    border: dashed 2px yellow;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 3rem 2rem;
+
+    &__titulo{
+        color: rgb(226, 226, 0);
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    &__parrafo{
+        text-align: center;
+        font-size: large;
+        color: darkgrey;
+    }
+
+    &__cards{
+        background-color: rgb(0, 0, 0);
+        border: 5px rgb(190, 200, 47);
+        border-style:dotted;
+        border-radius: 0.5rem;
+    }
+
+    &__cardTitle{
+        color: darkorange;
+        font-size: 1.8rem;
+    }
+
+    &__cardText{
+        color: rgb(102, 97, 97);
+    }
+
+}

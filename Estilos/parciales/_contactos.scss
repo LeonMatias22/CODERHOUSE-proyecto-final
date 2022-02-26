@@ -1,0 +1,43 @@
+.contactos{
+
+    &__titulo{
+        color: rgb(0, 0, 0);
+        font-size: 4rem;
+        letter-spacing: 6px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        -webkit-text-stroke: rgb(255, 140, 0) 2.5px;
+        animation-name: aparecer;
+        animation-duration: 4s; 
+    }
+
+    &__img{
+        width: 18rem;
+        border-radius: 0.5rem;
+    }
+
+    &__form{
+        color: yellow;
+        letter-spacing: 1px;
+    }
+
+}
+
+.ubicacion{
+
+    &__titulo{
+        color: darkorange;
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+
+}
+
+.mapa{
+    border-radius: 1.5rem;
+}
+
+.LogosUbicacion{
+    &__parrafo{
+        color: rgb(207, 207, 25);
+    }
+}
