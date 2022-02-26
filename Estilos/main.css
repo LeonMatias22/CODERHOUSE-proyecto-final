@@ -90,7 +90,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../../assets/Index/bosque2.jpg);
+  background-image: url(../assets/Index/bosque2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
