@@ -199,8 +199,6 @@ body {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .Nosotros {
@@ -503,15 +501,8 @@ body {
 
 @media only screen and (max-width: 500px) {
   .heroSection__titulo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     -webkit-text-stroke: darkorange 1px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .heroSection__titulo {
-    font-size: 1.5rem;
-    -webkit-text-stroke: darkorange 0.5px;
   }
 }
 
@@ -577,7 +568,7 @@ body {
 @media only screen and (max-width: 650px) {
   .Nosotros__titulo,
   .Servicios__titulo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     -webkit-text-stroke: darkorange 1px;
   }
   .NuestrosServicios__encabezado {
@@ -602,14 +593,21 @@ body {
 
 @media only screen and (max-width: 560px) {
   .contactos__titulo {
+    font-size: 2.5rem;
+    -webkit-text-stroke: darkorange 1px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contactos__titulo {
     font-size: 2rem;
     -webkit-text-stroke: darkorange 1px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
   .contactos__titulo {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     -webkit-text-stroke: darkorange 1px;
   }
 }
