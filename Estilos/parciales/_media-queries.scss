@@ -1,163 +1,188 @@
-// MEDIA QUERIE
+// DESKTOP FIRST
 
-// index
+// (EL CSS ORIGINAL ESTA CREADO PARA ESCRITORIO)
 
-@media only screen and (max-width: 850px) {
-    .heroSection__titulo {
-        font-size: 3rem;
+
+
+
+
+// TABLET
+
+
+@media only screen and (max-width: 1024px) {
+
+    // NOSOTROS
+
+    .Nosotros__titulo {
+        font-size: 3.5rem;
     }
 }
 
-@media only screen and (max-width: 500px) {
+
+
+
+// MOBILE
+
+
+@media only screen and (max-width: 768px) {
+
+    // INDEX
+
     .heroSection__titulo {
-        font-size: 2.5rem;
-        -webkit-text-stroke: darkorange 1px;
+        font-size: 3rem;
+        -webkit-text-stroke: darkorange 2px;
     }
 
-    .heroSection{
+    .heroSection {
         padding-top: 0rem;
         padding-bottom: 0rem;
         height: 90vh;
     }
 
-}
+    // SERVICIOS
 
-
-// productos
-@media only screen and (max-width: 527px) {
-    .productos__titulo {
-        -webkit-text-stroke: rgb(255, 140, 0) 1px;
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .variedades__cards,
-    .NuestrosServicios__cards{
-        width: 15rem;
-    }
-}
-
-@media only screen and (max-width: 385px) {
-    .variedades__cards,
-    .NuestrosServicios__cards{
-        width: 12rem;
-    }
-}
-
-@media only screen and (max-width: 535px) {
-    .variedades__CardsContainer{
-        padding: 15px;
-        border-radius: 1rem;
-    }
-}
-
-// nosotros
-
-@media only screen and (max-width: 1220px) {
-    .Nosotros__contenido,
-    .Servicios__contenido{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .Nosotros__img{
-        height: 12.75rem;
-    }
-    .Servicios__img{
-        height: 12rem;
-    }
-}
-
-@media only screen and (max-width: 485px) {
-    .Nosotros__img{
-        height: 9.75rem;
-    }
-    .Servicios__img{
-        height: 9rem;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .Nosotros__titulo,
-    .Servicios__titulo{
-        font-size: 2.5rem;
-        -webkit-text-stroke: darkorange 1px;
-    }
-    .NuestrosServicios__encabezado{
+    .NuestrosServicios__encabezado {
         font-size: 2rem;
         -webkit-text-stroke: rgb(251, 255, 0) 1px;
     }
 
-    .Equipo{
-    border: none;
-    margin: 0;
-    padding: 0;
-    }
+    // CONTACTOS
 
-    .Equipo__titulo{
+    .contactos__titulo {
         font-size: 3rem;
     }
-}
-// contactos
 
-@media only screen and (max-width: 700px) {
-    .contactos__titulo{
-    font-size: 3rem;
-    }
+
 }
 
-@media only screen and (max-width: 560px) {
-    .contactos__titulo{
-    font-size: 2.5rem;
-    -webkit-text-stroke: rgb(255, 140, 0) 1px;
-    }
-}
 
-@media only screen and (max-width: 450px) {
-    .contactos__titulo{
-    font-size: 2rem;
-    -webkit-text-stroke: rgb(255, 140, 0) 1px;
-    }
-}
 
-@media only screen and (max-width: 380px) {
-    .contactos__titulo{
-    font-size: 1.6rem;
-    -webkit-text-stroke: rgb(255, 140, 0) 1px;
-    }
-}
 
-@media only screen and (max-width: 450px) {
-    .contactos__img{
-    width: 15rem;
-    }
-}
-
-@media only screen and (max-width: 370px) {
-    .contactos__img{
-    width: 12rem;
-    }
-
-    .ubicacion__titulo{
-        font-size: 2.5rem;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .mapa{
-        width: 320px;
-        height: 500px;
-    }
-}
-
-// footer
 
 @media only screen and (max-width: 600px) {
-    .footer__contenido{
+
+    // NOSOTROS
+
+    .Nosotros__img {
+        height: 12rem;
+    }
+
+    .Equipo {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    // PRODUCTOS
+
+    .productos__titulo {
+        -webkit-text-stroke: rgb(255, 140, 0) 1px;
+        font-size: 2rem;
+    }
+
+    .variedades__cards{
+        width: 12rem;
+    }
+
+    .variedades__CardsContainer {
+        padding: 15px;
+        border-radius: 1rem;
+    }
+
+    // SERVICIOS
+
+    .Servicios__img {
+        height: 12rem;
+    }
+
+    .Servicios__titulo {
+        font-size: 2.5rem;
+        -webkit-text-stroke: darkorange 1px;
+    }
+
+    .NuestrosServicios__cards {
+        width: 15rem;
+    }
+
+    .variedades__CardsContainer {
+        padding: 15px;
+        border-radius: 1rem;
+    }
+
+    // footer
+
+    .footer__contenido {
         display: flex;
         flex-direction: column;
     }
+
+    // CONTACTOS
+
+    .contactos__titulo{
+        font-size: 2.5rem;
+        -webkit-text-stroke: rgb(255, 140, 0) 1px;
+    }
+
+    .mapa {
+        width: 320px;
+        height: 500px;
+    }
+
 }
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    // INDEX
+
+    .heroSection__titulo {
+        font-size: 2.5rem;
+        -webkit-text-stroke: darkorange 1px;
+    }
+
+    // NOSOTROS
+
+    .Nosotros__titulo {
+        font-size: 2.5rem;
+    }
+
+    
+    .Nosotros__img {
+        height: 8.8rem;
+    }
+
+    .Equipo__titulo {
+        font-size: 3rem;
+    }
+
+     // SERVICIOS
+
+    .Servicios__img {
+        height: 7rem;
+    }
+
+    .NuestrosServicios__cards {
+        width: 10rem;
+    }
+
+    // CONTACTOS
+
+    .contactos__titulo {
+        font-size: 1.5rem;
+        -webkit-text-stroke: rgb(255, 140, 0) 1px;
+    }
+
+    .contactos__img {
+        width: 12rem;
+    }
+
+    .ubicacion__titulo {
+        font-size: 2.5rem;
+    }
+
+}
+

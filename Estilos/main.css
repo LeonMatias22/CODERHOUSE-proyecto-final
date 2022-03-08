@@ -501,153 +501,65 @@ body {
   color: black;
 }
 
-@media only screen and (max-width: 850px) {
-  .heroSection__titulo {
-    font-size: 3rem;
+@media only screen and (max-width: 1024px) {
+  .Nosotros__titulo {
+    font-size: 3.5rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .heroSection__titulo {
-    font-size: 2.5rem;
-    -webkit-text-stroke: darkorange 1px;
+    font-size: 3rem;
+    -webkit-text-stroke: darkorange 2px;
   }
   .heroSection {
     padding-top: 0rem;
     padding-bottom: 0rem;
     height: 90vh;
   }
-}
-
-@media only screen and (max-width: 527px) {
-  .productos__titulo {
-    -webkit-text-stroke: darkorange 1px;
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .variedades__cards,
-  .NuestrosServicios__cards {
-    width: 15rem;
-  }
-}
-
-@media only screen and (max-width: 385px) {
-  .variedades__cards,
-  .NuestrosServicios__cards {
-    width: 12rem;
-  }
-}
-
-@media only screen and (max-width: 535px) {
-  .variedades__CardsContainer {
-    padding: 15px;
-    border-radius: 1rem;
-  }
-}
-
-@media only screen and (max-width: 1220px) {
-  .Nosotros__contenido,
-  .Servicios__contenido {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .Nosotros__img {
-    height: 12.75rem;
-  }
-  .Servicios__img {
-    height: 12rem;
-  }
-}
-
-@media only screen and (max-width: 485px) {
-  .Nosotros__img {
-    height: 9.75rem;
-  }
-  .Servicios__img {
-    height: 9rem;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .Nosotros__titulo,
-  .Servicios__titulo {
-    font-size: 2.5rem;
-    -webkit-text-stroke: darkorange 1px;
-  }
   .NuestrosServicios__encabezado {
     font-size: 2rem;
     -webkit-text-stroke: #fbff00 1px;
+  }
+  .contactos__titulo {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Nosotros__img {
+    height: 12rem;
   }
   .Equipo {
     border: none;
     margin: 0;
     padding: 0;
   }
-  .Equipo__titulo {
-    font-size: 3rem;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .contactos__titulo {
-    font-size: 3rem;
-  }
-}
-
-@media only screen and (max-width: 560px) {
-  .contactos__titulo {
-    font-size: 2.5rem;
+  .productos__titulo {
     -webkit-text-stroke: darkorange 1px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .contactos__titulo {
     font-size: 2rem;
-    -webkit-text-stroke: darkorange 1px;
   }
-}
-
-@media only screen and (max-width: 380px) {
-  .contactos__titulo {
-    font-size: 1.6rem;
-    -webkit-text-stroke: darkorange 1px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .contactos__img {
-    width: 15rem;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  .contactos__img {
+  .variedades__cards {
     width: 12rem;
   }
-  .ubicacion__titulo {
+  .variedades__CardsContainer {
+    padding: 15px;
+    border-radius: 1rem;
+  }
+  .Servicios__img {
+    height: 12rem;
+  }
+  .Servicios__titulo {
     font-size: 2.5rem;
+    -webkit-text-stroke: darkorange 1px;
   }
-}
-
-@media only screen and (max-width: 650px) {
-  .mapa {
-    width: 320px;
-    height: 500px;
+  .NuestrosServicios__cards {
+    width: 15rem;
   }
-}
-
-@media only screen and (max-width: 600px) {
+  .variedades__CardsContainer {
+    padding: 15px;
+    border-radius: 1rem;
+  }
   .footer__contenido {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -656,6 +568,46 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .contactos__titulo {
+    font-size: 2.5rem;
+    -webkit-text-stroke: darkorange 1px;
+  }
+  .mapa {
+    width: 320px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .heroSection__titulo {
+    font-size: 2.5rem;
+    -webkit-text-stroke: darkorange 1px;
+  }
+  .Nosotros__titulo {
+    font-size: 2.5rem;
+  }
+  .Nosotros__img {
+    height: 8.8rem;
+  }
+  .Equipo__titulo {
+    font-size: 3rem;
+  }
+  .Servicios__img {
+    height: 7rem;
+  }
+  .NuestrosServicios__cards {
+    width: 10rem;
+  }
+  .contactos__titulo {
+    font-size: 1.5rem;
+    -webkit-text-stroke: darkorange 1px;
+  }
+  .contactos__img {
+    width: 12rem;
+  }
+  .ubicacion__titulo {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
